@@ -1,635 +1,363 @@
-"use client";
-import React, { useState } from "react";
+import React from "react";
 
 const Container = () => {
-  const [userInput, setInput] = useState("");
-
-  const handleChange = (e) => {
-    setInput(onchange);
-  };
   return (
     <>
-      <div className="md:ml-[8rem]  sm:my-[4rem] sm:mx-[6rem] my-10 mx-10 md: md:max-w-[70vw] justify-center align-center sm:border-2  sm:border-black lg:ml-[12rem] sm:ml-[3rem] sm:mr-[2rem]">
-        <div className=" h-full sm:h-full max-w-[79vw] sm:max-w-[100%] mx-2 my-2 border-2 border-black bg-red-200] relative ">
-          <img
-            className="lg:rounded-lg lg:w-[8rem] md:rounded-lg md:w-[4.80rem] sm:w-[4rem] md:my-2 lg:ml-4  lg:pt-4 lg:pl-2 lg:h-[6rem] md:mx-4  absolute t-[50px] sm:overflow-hidden sm:mx-4 sm:my-2 ml-1 rounded-lg my-3 w-[4rem] lg:pb-[0.5rem]"
-            src="/logo.png"
-            alt="not found"
-          />
-          <h4 className="flex-col justify-center align-center text-center bg-gray-300">
-            Nepal Government
-          </h4>
+      <div className=" mt-8 mb-2 mx-10 justify-center align-center border-2 border-black overflow-x-auto">
+        <div class="grid grid-cols-7 ">
+          <div className="row-span-2 bg-gray-100 flex justify-center items-center border-b-2 border-black border-r-2 text-[1vw] font-semi">
+            <h1>नाम ि थि</h1>
+          </div>
+          <div className="row-span-2 bg-gray-100 w-[2.5vw]   text-[1vw] font-semi border-b-2 border-black border-r-2  ">
+            <h1 className=" px-[0.3vw]  py-[0.3vw]">जाती कोड</h1>
+          </div>
+          <div className="bg-gray-100 w-[8vw]  ml-[-10.90vw] border-b-2 border-black border-r-2">
+            <h1 className="text-[1vw] pl-[1vw] font-semi overflow-x-auto   font-semi">
+              उमेि (मर्िनामा)
+            </h1>
+          </div>
+          <div className="bg-gray-100 ml-[-16.32vw]">
+            <h1 className="flex justify-center items-center border-b-2 border-black  text-[1vw] font-semi pb-[0.30vw]">
+              ठेगाना
+            </h1>
+          </div>
+          <div className="row-span-2 border-b-2 border-black border-r-2  border-l-2 bg-gray-100 flex justify-center items-center overflow-x-auto">
+            <h1 className="text-[1vw] font-semi">सम्पकि नं.</h1>
+          </div>
+          <div className="row-span-2  border-b-2 border-black border-r-2   bg-gray-100 flex justify-center items-center ">
+            <h1 className="text-[1vw] font-semi tracking-tighter whitespace-wrap">
+              अर्भभावक/ िेिचाि गनेको नाम ि थि
+            </h1>
+          </div>
+          <div className="row-span-2  bg-gray-100 flex justify-center items-center  border-b-2 border-black">
+            <h1 className="text-[1vw] font-semi tracking-tighter whitespace-wrap">
+              जम्मा परिवाि संख्या
+            </h1>
+          </div>
+          <div className="grid grid-cols-2 ml-[-10.90vw]">
+            <h1 className="pl-[0.45vw] text-[1vw] font-semi tracking-tighter  bg-gray-100 border-b-2 border-black w-[4.90vw]">
+              मर्िला
+            </h1>
+            <h1 className=" ml-[-8vw] text-[1vw] font-semi tracking-tighter  border-b-2 border-l-2 border-black w-[3.90vw] border-r-2 flex justify-center items-center bg-gray-100">
+              पुरूष
+            </h1>
+          </div>
+          <div className=" bg-gray-100 flex ml-[-16.28vw] text-[1vw]  font-semi tracking-tight border-b-2 border-black overflow-x-auto">
+            <h1 className="flex justify-center items-center border-black  border-r-2 w-[7vw] ">
+              प्रदेश
+            </h1>
+            <h1 className="flex justify-center items-center border-black  border-r-2  w-[7vw] overflow-x-auto">
+              र्जल्ला
+            </h1>
+            <h1 className="flex justify-center items-center border-black  border-r-2   w-[7vw] overflow-x-auto">
+              वडा न
+            </h1>
+            <h1 className="flex justify-center items-center  w-[8vw] overflow-x-auto ">
+              नं गााँउ/टोल
+            </h1>
+          </div>
+          <div className="border-r-2 border-black  pl-[2vw] pt-[0.30vw]">
+            <input className="outline-none w-[10vw]" type="text" />
+          </div>
+          <div className="flex">
+            <div className="border-r-2 border-black ">
+              <input
+                className="w-[2.3vw] pl-[0.2vw] outline-none"
+                type="
+            "
+              />
+            </div>
+            <div className=" border-r-2 border-black">
+              <input className="w-[4vw] ml-[0.2vw] outline-none" type="text" />
+            </div>
+            <div className=" border-r-2 border-black">
+              <input
+                className="w-[3.4vw] ml-[0.2vw] outline-none"
+                type="text"
+              />
+            </div>
+            <div className=" border-r-2 border-black">
+              <input
+                className="w-[6.71vw] ml-[0.2vw] outline-none"
+                type="text"
+              />
+            </div>
+            <div className=" border-r-2 border-black">
+              <input
+                className="w-[6.60vw] ml-[0.2vw] outline-none"
+                type="text"
+              />
+            </div>
+            <div className=" border-r-2 border-black">
+              <input
+                className="w-[6.66vw] ml-[0.2vw] outline-none"
+                type="text"
+              />
+            </div>
+            <div className=" border-r-2 border-black">
+              <input
+                className="w-[8.50vw] ml-[0.2vw] outline-none"
+                type="text"
+              />
+            </div>
+            <div className=" border-r-2 border-black">
+              <input
+                className="w-[12.94vw] ml-[0.2vw] outline-none"
+                type="text"
+              />
+            </div>
+            <div className=" border-r-2 border-black">
+              <input
+                className="w-[13vw]  ml-[0.2vw] outline-none"
+                type="text"
+              />
+            </div>
+            <div className=" ">
+              <input
+                className="w-[9.50vw] ml-[0.2vw] outline-none"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
-          <h4 className="flex-col justify-center align-center text-center bg-gray-300">
-            Health Ministry
-          </h4>
-          <h4 className="flex-col justify-center align-center text-center bg-gray-300">
-            Nepal Governemt Health Ministry
-          </h4>
-          <h4 className="flex-col justify-center align-center text-center font-bold text-2xl pb-2 border-blac bg-gray-300">
-            Nepal Governemt Health Ministry
-          </h4>
-          <h4 className="flex text-center align-center justify-center border-t-2 border-black ">
-            मातृ तथा नवशिशु स्वास्थ्य कार्डमा
-          </h4>
-          <form action="">
-            <div className="grid grid-cols-4 border-2 border-black border-l-0 border-r-0">
-              <div className=" min-h[500px] border-2 border-black border-l-0 border-t-0">
-                <h1 className="pl-2">Health post Name</h1>
-              </div>
-              <div className=" min-h[50px] border-2 border-black border-l-0 border-t-0">
-                <h1 className="pl-2">District</h1>
-              </div>
-              <div className=" min-h[50px] border-2 border-black border-l-0 border-t-0">
-                <h1 className="md:pl-2">Nagarpalika</h1>
-              </div>
-              <div className=" min-h[50px] border-2 border-black border-l-0 border-t-0 border-r-0">
-                <h1 className="pl-2">ward no</h1>
-              </div>
-              <div className=" min-h[50px] border-2 border-black border-l-0 border-t-0 border-b-0">
+      <div
+        className="my-0 mx-10 justify-center align-center border-2
+        border-black overflow-x-auto"
+      >
+        <div className="flex">
+          <div className="flex flex-col bg-gray-100 w-[6rem] border-r-2 border-black ">
+            <h1 className=" border-b-2 border-black flex justify-center items-center text-[1vw] font-semi  h-[4vw]">
+              सेवा दतािन
+            </h1>
+            <input className="" type="text" />
+          </div>
+          <div className="ml-[1vw]">
+            <div className="w-[10vw] border-l-2 border-black">
+              <h1 className="border-b-2 border-r-2 border-black flex justify-center items-center text-[1vw] font-semi  h-[4vw] bg-gray-100">
+                भनािर्मर्त (ग.म.सा.)
+              </h1>
+              <div className="flex">
                 <input
-                  className="md:h-8 md:w-[7rem] lg:w-[10rem]  ml-3 my-2 sm:h-8 w-[4rem] "
+                  className="w-[3.2vw] pl-[0.4vw] outline-none  border-r-2 border-black"
                   type="text"
-                  value={userInput}
-                  onChange={handleChange}
                 />
-              </div>
-              <div className=" min-h[50px] border-2 border-black border-l-0 border-t-0 border-b-0">
                 <input
-                  className="h-8 ml-3 my-2 lg:md:w-[10rem]  md:w-[7rem] sm:w-[6rem] sm:h-8 w-[4rem] "
+                  className="w-[3.2vw] pl-[0.4vw] outline-none  border-r-2 border-black"
                   type="text"
-                  value={userInput}
                 />
-              </div>
-              <div className=" min-h[50px] border-2 border-black border-l-0 border-t-0 border-b-0">
                 <input
-                  className="h-8 ml-3 my-2 lg:md:w-[10rem]  md:w-[7rem] sm:w-[6rem] sm:h-8 w-[4rem]  "
+                  className="w-[3.5vw] pl-[0.4vw] outline-none  border-r-2 border-black"
                   type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className=" min-h[50px] ml-1">
-                <input
-                  className="h-8 ml-2 my-2 lg:md:w-[10rem]  md:w-[7rem] sm:w-[4rem]  sm:hover:w-[7rem] w-[4rem] "
-                  type="text"
-                  value={userInput}
                 />
               </div>
             </div>
-
-            <div className="grid grid-cols-4 ">
-              <div className="border-2  border-t-0 border-l-0 border-black ">
-                <h4 className="text-center justify-center align-center  bg-gray-300 h-[3rem]">
-                  Mul Darta No
-                </h4>
-              </div>
-              <div className="border-2  border-t-0 border-l-0 border-black ">
-                <h4 className="text-center justify-center align-center bg-gray-300 h-[3rem]">
-                  Sewa Darta No.
-                </h4>
-              </div>
-              <div className="border-2  border-t-0 border-l-0 border-black ">
-                <h4 className="text-center justify-center align-center  bg-gray-300 h-[3rem]">
-                  ORC Darta No.
-                </h4>
-              </div>
-              <div className="border-2  border-t-0 border-l-0 border-r-0 border-black ">
-                <h4 className="text-center justify-center align-center   bg-gray-300 h-[3rem]">
-                  Darta Miti
-                </h4>
-              </div>
-            </div>
-            <div className="grid grid-cols-6 border-2 border-black border-t-0 border-l-0 border-r-0">
-              <div>
-                <input
-                  className="h-8 ml-2 my-2  lg:w-[6rem]  md:w-[4rem] sm:w-[4rem] sm:h-8 w-[4rem]"
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-l-2 border-black">
-                <input
-                  className=" h-8 ml-2 my-2  lg:w-[6rem]  md:w-[4rem]  sm:w-[4rem] sm:h-8 w-[4rem]"
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-l-2 border-black">
-                <input
-                  className="h-8 ml-2 my-2  lg:w-[6rem]  md:w-[4rem]  sm:w-[4rem] sm:h-8 w-[4rem]"
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-l-2 border-black ml-[-2px]">
-                <input
-                  className="h-8 ml-2 my-2  lg:w-[6rem]   md:w-[4rem]  sm:w-[4rem]  sm:hover:w-[7rem] w-[2rem] "
-                  type="text"
-                  placeholder="gateway"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-l-2 border-black ">
-                <input
-                  className="h-8 ml-2 my-2  lg:w-[6rem]   md:w-[4rem]   sm:w-[4rem]  sm:hover:w-[7rem] w-[2rem]  "
-                  type="text"
-                  placeholder="mahina"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-l-2 border-black min-h[50px] ml-1">
-                <input
-                  className="h-8 ml-2 my-2  lg:w-[6rem]   md:w-[4rem]  sm:w-[4rem]  sm:hover:w-[7rem] w-[2rem] "
-                  type="text"
-                  placeholder="saal"
-                  value={userInput}
-                />
-              </div>
-            </div>
-            <div className="flex align-center justify-center border-b-2 border-black">
-              <h4>मातृ तथा नवशिशु स्वास्थ्य कार्डमा</h4>
-            </div>
-            <div className="grid grid-cols-6 border-b-2 border-black ">
-              <div className="border-r-2 border-black h-14 align-center justify-center text-center">
-                <h4 className="pt-1">Name thar</h4>
-              </div>
-              <div className=" border-black ">
-                <input
-                  className="h-8  mx-2 my-1  lg:w-[6rem]   md:w-[4rem]  sm:w-[4rem]  sm:hover:w-[7rem] w-[3rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-r-2 border-l-2 border-black align-center justify-center text-center pt-2">
-                <h4>Umer</h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1  lg:w-[4rem]   md:w-[4rem]  sm:w-[4rem] sm:hover:w-[7rem] w-[3rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="pt-2 justify-center text-center">Uchai cm</h4>
-              </div>
-              <div>
-                <input
-                  className="h-8  mx-2 my-1 lg:w-[4rem]  md:w-[4rem]  sm:w-[4rem] sm:hover:w-[7rem] w-[3rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-            </div>
-            {/* secon */}
-
-            <div className="grid grid-cols-6 border-b-2 border-black ">
-              <div className="border-r-2 border-black h-13 align-center justify-center text-center ">
-                <h4 className="pt-2">jilla</h4>
-              </div>
-              <div className=" border-black ">
-                <input
-                  className="h-8  mx-2 my-1  lg:w-[6rem]  md:w-[4rem]  sm:w-[4rem] sm:hover:w-[7rem] w-[3rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-r-2 border-l-2 border-black align-center justify-center text-center pt-2 sm:object-cover ">
-                <h4 className="md:-mx-1 sm:object-cover overflow-auto">
-                  Nagarpali
-                </h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1  lg:w-[6rem]  md:w-[4rem] sm:w-[4rem] sm:overflow-auto   sm:hover:w-[7rem] w-[3rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="pt-2 justify-center text-center">ward</h4>
-              </div>
-              <div>
-                <input
-                  className="h-8  mx-2 my-1 lg:w-[6rem]   md:w-[4rem]  sm:w-[4rem]  sm:hover:w-[7rem] w-[3rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-            </div>
-            {/* secon2 */}
-
-            <div className="grid grid-cols-6 border-b-2 border-black ">
-              <div className="border-r-2 border-black h-17 align-center justify-center text-center">
-                <h4 className="lg:pt-3 pt-6 overflow-auto">Gau-tol</h4>
-              </div>
-              <div className=" border-black ">
-                <input
-                  className="h-8  mx-2 my-2  lg:w-[6rem]   md:w-[4rem]  sm:w-[4rem] sm:mt-2 sm:hover:w-[7rem] w-[3rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-r-2 border-l-2 border-black align-center justify-center text-center pt-2">
-                <h4 className=" overflow-auto">samparka no</h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 lg:w-[6rem]   md:w-[4rem]  sm:w-[4rem] sm:mt-2 sm:hover:w-[7rem] w-[3rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="pt-2 justify-center text-center">blood group</h4>
-              </div>
-              <div>
-                <input
-                  className="h-8  mx-2 my-1  lg:w-[6rem]   md:w-[4rem] sm:w-[4rem] sm:mt-2 sm:hover:w-[7rem] w-[3rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-            </div>
-
-            {/* secon 3*/}
-
-            <div className="grid grid-cols-4 border-b-2 border-black ">
-              <div className="border-r-2 border-black lg:h-12 align-center justify-center text-center  w-[7rem]">
-                <h4 className="pt-2">garbha patak</h4>
-              </div>
-              <div className=" border-black ">
-                <input
-                  className="h-8  mx-2 my-1  lg:w-[6rem]  md:w-[6rem]  sm:w-[7rem]   w-[4rem] ml-6"
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-r-2 border-l-2 border-black align-center justify-center text-center pt-2 ml-[-2px]">
-                <h4>pati ko name</h4>
-              </div>
-              <div className=" border-black   ">
-                <input
-                  className="h-8  mx-2 my-1  lg:md:w-[8rem]  md:w-[7rem]  sm:w-[7rem] sm:mt-2  sm:hover:w-[7rem] w-[4rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-            </div>
-            <div className="border-t-2 mt-2 border-black"></div>
-            <div className="align-center text-center justify-center bg-gray-300 border-b-2 border-black  ">
-              <h4>Aaghilo garbha ko bibaran</h4>
-            </div>
-
-            <div className="grid grid-cols-5 ">
-              <div className="h-[5rem] lg:h-[5rem] md:h-[5rem] sm:tracking-tight sm:overflow-hidden sm:h-[4.99rem] border-r-2 border-b-2 border-black row-span-2">
-                <h4 className="align-center justify-center text-center sm:pt-1 md:pt-2 lg:pt-6 ">
-                  Aaghilo garbha ko Name
-                </h4>
-              </div>
-
-              <div className="h-15 border-r-2 border-b-2 border-black justify-center text-center ">
-                <h4 className="my-2 lg:my-6  sm:mt-4">garbha ko bibaran</h4>
-              </div>
-              <div className="h-20 border-r-1 border-b-2 border-black justify-center text-center ">
-                <h4 className="my-6 md:my-5 ">jiwit bachha</h4>
-              </div>
-              <div className=" border-r-2 border-l-2 border-b-2 border-black justify-center text-center row-span-2 relative">
-                <h4 className="md:pt-4 lg:pt-2 md:h-[2rem] justify-end items-center absolute -top-6 left-4 pb-4 sm:mt-8 leading-tight tracking-tighter mt-10">
-                  garba ko jatilta
-                </h4>
-              </div>
-              <div className=" border-b-2 border-black justify-center text-center row-span-2">
-                <h4 className="pt-7">prasuti kisim</h4>
-              </div>
-            </div>
-            <div className="grid grid-cols-7 border-b-2 border-black ">
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-2">jiwit</h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-2 md:text-wrap md:h-4">mirty </h4>
-              </div>
-              <div className="border-r-2 border-black -">
-                <h4 className="text-center pt-2  overflow-hidden tracking-tight ">
-                  Aavadhi napugeko
-                </h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-2">twins</h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-t md:px-1 md:py-2 md:overflow-auto sm:overflow-auto sm:pt-2 overflow-auto mt-2">
-                  garbhapatan
-                </h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-2">gender</h4>
-              </div>
-              <div className="text-center pt-2">
-                <h4 className="text-center pt-2">Umer</h4>
-              </div>
-            </div>
-            <div className="grid grid-cols-10">
-              <div className="border-b-2 border-r-2 border-black">
-                <h1 className="pl-2 mt-2">first</h1>
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1  lg:w-[3rem] w-[1.4rem] md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-black ">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-            </div>
-
-            <div className="grid grid-cols-10">
-              <div className="border-b-2 border-r-2 border-black">
-                <h1 className="pl-2 md:text-wrap  md:overflow-auto mt-2 sm:overflow-auto overflow-auto">
-                  Second
+          </div>
+          <div className="ml-[1vw]">
+            <div className="w-[10vw] border-l-2 border-black">
+              <h1 className="border-b-2 border-r-2 border-black flex justify-center items-center text-[1vw] font-semi  h-[4vw] bg-gray-100 pl-[1vw]">
+                भनािको र्कर्सम (गोलो लगाउने)
+              </h1>
+              <div className="flex">
+                <h1 className="w-[4.84vw] pl-[0.4vw] outline-none  border-r-2 border-black">
+                  कडा
+                </h1>
+                <h1 className="w-[4.99vw] pl-[0.4vw] outline-none  border-r-2 border-black">
+                  मध्यमा
                 </h1>
               </div>
-              <div className="border-b-2 border-r-2 border-black">
+            </div>
+          </div>
+          <div className="">
+            <div className="w-[10vw]  ">
+              <h1 className="border-b-2 border-r-2 border-black flex justify-center items-center text-[1vw] font-semi  h-[4vw] bg-gray-100 ">
+                आफै
+              </h1>
+              <div className="flex">
                 <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem] "
+                  className="w-[9.96vw] pl-[0.4vw] outline-none  border-r-2 border-black"
                   type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1  w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-black ">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
                 />
               </div>
             </div>
-
-            <div className="grid grid-cols-10">
-              <div className="border-b-2 border-r-2 border-black">
-                <h1 className="pl-2 mt-2 overflow-auto">Third</h1>
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 sm:w-[2rem] lg:w-[3rem] w-[1.4rem]  md:w-[2rem]"
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem] sm:w-[2rem]  "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-b-2 border-black ">
-                <input
-                  className="h-8  mx-2 my-1 w-[1.4rem] lg:w-[3rem]  md:w-[2rem]  sm:w-[2rem] "
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-            </div>
-
-            <div className="grid grid-cols-7  bg-yellow-300 border-b-2 border-black ">
-              <div className="border-r-2 border-black">
-                <h4 className="flex  justify-center text-center lg:overflow-auto overflow-auto  sm:px-4  h-[4rem] ">
-                  genderaagilo garbha ko tb khop ko bibaran
-                </h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-6">td1</h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-6">1</h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-6">td2</h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-6"> 2</h4>
-              </div>
-              <div className="border-r-2 border-black">
-                <h4 className="text-center pt-6">t.d 2+</h4>
-              </div>
-              <div>
-                <h4 className="text-center pt-6">3</h4>
-              </div>
-            </div>
-            <div className="border-b-2 border-black mt-2"></div>
-            <div className="align-center justify-centert text-center border-b-2 border-black bg-gray-300">
-              <h4>Aaghilo garbha ko bibaran</h4>
-            </div>
-            <div className="grid grid-cols-4 border-b-2 border-black ">
-              <div className="border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[4rem] lg:w-[10rem]  md:w-[7rem] sm:w-[6rem] "
-                  type="text"
-                  placeholder="Name"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[4rem]  lg:w-[10rem]  md:w-[7rem]  sm:w-[6rem] "
-                  type="text"
-                  placeholder="Pad"
-                  value={userInput}
-                />
-              </div>
-              <div className="border-r-2 border-black">
-                <input
-                  className="h-8  mx-2 my-1 w-[4rem]  lg:w-[10rem]  md:w-[7rem]  sm:w-[6rem]"
-                  type="text"
-                  placeholder="Dashtkhat"
-                  value={userInput}
-                />
-              </div>
-              <div>
-                <input
-                  className="h-8  mx-2 my-1 w-[4rem]  lg:w-[10rem]  md:w-[7rem]  sm:w-[6rem] "
-                  type="text"
-                  placeholder="Mlti"
-                  value={userInput}
-                />
-              </div>
-            </div>
-            <div className="grid grid-cols-4 border-b-2 border-black h-16  pl-4  ">
-              <div className="lg:px-4 lg:py-4 border-r-2 border-black md:text-center">
-                organization name
-              </div>
-              <div className="">
-                <input
-                  className="h-8  mx-2 my-1 w-[4rem] mt-2  lg:w-[10rem]  md:w-[7rem]  sm:w-[6rem]"
-                  type="text"
-                  value={userInput}
-                />
-              </div>
-              <div className="lg:pt-4 border-l-2 border-r-2 text-center border-black leading-[0.99rem] ">
-                <h1 className="sm:tracking-tight justify-center items-center mb-[-26px] mt-2 ">
-                  ambulance phone number
+          </div>
+          <div className="">
+            <div className="w-[32vw]  ">
+              <h1 className="border-b-2 border-r-2 border-black flex justify-center items-center text-[1vw] font-semi  h-[2vw] bg-gray-100 ">
+                प्रेषण
+              </h1>
+              <div className="flex border-b-2 border-black h-[2vw] bg-gray-100 ">
+                <h1 className="flex justify-center items-center text-[1vw] font-semi tracking-tight w-[8vw] border-r-2 border-black">
+                  अन्तिंग
+                </h1>
+                <h1 className="flex justify-center items-center text-[1vw] font-semi tracking-tight w-[8vw] border-r-2 border-black">
+                  म.स्वा.स्व.स
+                </h1>
+                <h1 className="flex justify-center items-center text-[1vw] font-semi tracking-tight w-[8vw] border-r-2 border-black">
+                  स्वास्थ्य संस्था
+                </h1>
+                <h1 className="flex justify-center items-center text-[1vw] font-semi tracking-tight w-[8vw] border-r-2 border-black">
+                  बर्ििङ्ग
                 </h1>
               </div>
-              <div>
+              <div className="bg-red-200 flex w-[32vw]">
                 <input
-                  className="h-8  mx-2 my-1 w-[4rem] mt-2  lg:w-[10rem]  md:w-[7rem]  sm:w-[6rem]"
+                  className="border-r-2 border-black flex justify-center items-center  font-semi outline-none w-[8vw] pl-[0.34vw] "
                   type="text"
-                  value={userInput}
+                />
+                <input
+                  className="border-r-2 border-black flex justify-center items-center font-semi outline-none w-[8vw] pl-[0.34vw] "
+                  type="text"
+                />
+                <input
+                  className="border-r-2 border-black flex justify-center items-center font-semi outline-none w-[8vw] pl-[0.34vw] "
+                  type="text"
+                />
+                <input
+                  className="border-r-2 border-black flex justify-center items-center  font-semi outline-none w-[8vw] pl-[0.34vw] "
+                  type="text"
                 />
               </div>
             </div>
-            <div className="text-center text-2xl font-bold text pt-4">
-              <h1 className="pb-4">Thankyou...</h1>
+          </div>
+          <div className="">
+            <div className="flex w-full border-b-2 border-black text-[1vw] font-sem h-[2vw]">
+              <h1 className="flex justify-center items-center w-[3.55vw] bg-gray-100 border-r-2 border-black"></h1>
+              <h1 className="flex justify-center items-center w-[3.85vw] bg-gray-100 border-r-2 border-black">
+                बुवा
+              </h1>
+              <h1 className="flex justify-center items-center w-[3.85vw] bg-gray-100 border-r-2 border-black">
+                आमा
+              </h1>
+              <h1 className="flex justify-center items-center w-[3.85vw] bg-gray-100 border-r-2 border-black">
+                जुम्ल्यािा
+              </h1>
+
+              <h1 className="flex justify-center items-center w-[7.70vw] bg-gray-100">
+                {" "}
+                पुनः िोगी भना
+              </h1>
             </div>
-          </form>
+            <div className="flex border-b-2 border-black text-[1vw] font-semi h-[2vw]">
+              <h1 className="flex justify-center items-center w-[3.55vw] bg-gray-100 border-r-2 border-black">
+                भएको
+              </h1>
+              <h1 className="flex justify-center items-center w-[3.85vw] bg-gray-100 border-r-2 border-black">
+                १
+              </h1>
+              <h1 className="flex justify-center items-center w-[3.85vw] bg-gray-100 border-r-2 border-black">
+                २
+              </h1>
+              <h1 className="flex justify-center items-center w-[3.85vw] bg-gray-100 border-r-2 border-black">
+                ३
+              </h1>
+              <h1 className="flex justify-center items-center w-[7.70vw] bg-gray-100">
+                ४
+              </h1>
+            </div>
+            <div className="flex h-[1.76vw] font-smi text-[1vw] bg-gray-100 h-">
+              <h1 className="flex justify-center items-center w-[3.55vw] bg-gray-100 border-r-2 border-black">
+                नभएको
+              </h1>
+              <h1 className="flex justify-center items-center w-[3.85vw] bg-gray-100 border-r-2 border-black">
+                १
+              </h1>
+              <h1 className="flex justify-center items-center w-[3.85vw] bg-gray-100 border-r-2 border-black">
+                २
+              </h1>
+              <h1 className="flex justify-center items-center w-[3.85vw] bg-gray-100 border-r-2 border-black">
+                ३
+              </h1>
+              <h1 className="flex justify-center items-center w-[7.70vw] bg-gray-100">
+                ४
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className=" mt-1 mb-2 mx-10 justify-center align-center border-2 border-black overflow-x-auto">
+        <div className="flex w-full h-[2vw]">
+          <div className="bg-gray-100 w-[15vw] border-r-2 border-black"></div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            1
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            2
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            3
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            4
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            5
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            6
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            7
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            8
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            9
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            10
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            11
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            12
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            13
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            14
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            15
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            16
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            17
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            18
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            19
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            20
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            21
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            22
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            23
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            24
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            25
+          </div>
+          <div className="border-r-2 border-black pl-[0.56vw] bg-gray-100 w-[4vw]">
+            26
+          </div>
+          <div className="  pl-[0.56vw] bg-gray-100 w-[4vw]">27</div>
         </div>
       </div>
     </>
