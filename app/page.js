@@ -7,10 +7,10 @@ import Link from "next/link";
 // import Page3 from "@/Components/Page3";
 // import Page4 from "@/Components/Page4";
 
-import PageOne from "@/Components/Table-9.3/PageOne";
-import PageTwo from "@/Components/Table-9.3/PageTwo";
-import PageThree from "@/Components/Table-9.3/PageThree";
-import PageFour from "@/Components/Table-9.3/PageFour";
+import PageOne from "@/Components/Hmis-9.2/PageOne";
+import PageTwo from "@/Components/Hmis-9.2/PageTwo";
+import PageThree from "@/Components/Hmis-9.2/PageThree";
+import PageFour from "@/Components/Hmis-9.3/PageFour";
 const page = () => {
   return (
     <>
