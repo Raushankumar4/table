@@ -365,7 +365,7 @@ const PageOne = () => {
 
           {/* Section-3 end */}
 
-          {/* 
+          {/*
           Section-4 start */}
           <section className="mt-[0.40vw]">
             <table className="w-full border-2 border-black border-collapse text-[1.1vw] font-semi tracking-wide">
