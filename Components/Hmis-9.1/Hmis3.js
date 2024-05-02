@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 
-const Page2 = () => {
+const Page3 = () => {
   const {
     register,
     handleSubmit,
@@ -47,28 +47,15 @@ const Page2 = () => {
                     संख्या
                   </th>
                 </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]">
-                    (च)
-                  </th>
-                  <th
-                    colSpan={3}
-                    className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]"
-                  >
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      २-५९ महिना भित्रका शिशु/ बालबालिकाको मृत्यु विवरण
-                    </h1>
-                  </th>
-                </tr>
               </thead>
               <tbody className="text-[1.1vw] fonr-semi">
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    २७
+                    ५८
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      २-११ महिना भित्र मृत्यु भएका नवजात शिशु संख्या
+                      १२ देखी १७ महिना: दोस्रो पटक
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -79,7 +66,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden"
                       type="text"
                       {...register(
-                        "Page-2[२-११ महिना भित्र मृत्यु भएका नवजात शिशु संख्या जना]",
+                        "Page3[५८ १२ देखी १७ महिना: दोस्रो पटक जना]",
                         {}
                       )}
                     />
@@ -87,11 +74,11 @@ const Page2 = () => {
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    २८
+                    ५९
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      १२-५९ महिना भित्र मृत्यु भएका बालबालिकाको संख्या
+                      १८ देखी २३ महिना: पहिलो पटक
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -102,164 +89,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden"
                       type="text"
                       {...register(
-                        "Page-2[ २८ - १२-५९ महिना भित्र मृत्यु भएका बालबालिकाको संख्या  जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]">
-                    (छ)
-                  </th>
-                  <th
-                    colSpan={3}
-                    className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]"
-                  >
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      २-५९ महिना सम्मका विरामि शिशुको उपचार तथा प्रेषणः
-                      झाडापखाला
-                    </h1>
-                  </th>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    २९
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      झाडापखाला लागेका २ महिनादेखि ५ वर्ष मुनिका जम्मा विरामी
-                      बच्चाहरुको संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[२९ झाडापखाला लागेका २ महिनादेखि ५ वर्ष मुनिका जम्मा विरामी बच्चाहरुको संख्या जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३0
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      पुनर्जलीय झोल र जिंक चक्कीबाट उपचार गरेका बच्चाहरुको
-                      संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[३0 पुनर्जलीय झोल र जिंक चक्कीबाट उपचार गरेका बच्चाहरुको संख्या      जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३१
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      वर्ष मुनिका बच्चाहरूलाई वितरण गरेको पुनर्जलीय झोलको पुरिया
-                      संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    पुरिया
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2                  ३१ ५ वर्ष मुनिका बच्चाहरूलाई वितरण गरेको पुनर्जलीय झोलको पुरिया संख्या पुरिया]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३२
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      ५ वर्ष भन्दा माथिका मानिसहरूलाई वितरण गरेको पुनर्जलीय
-                      झोलको पुरिया संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    पुरिया
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[३२ ५ वर्ष भन्दा माथिका मानिसहरूलाई वितरण गरेको पुनर्जलीय झोलको पुरिया संख्या पुरिया]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३३
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      वितरण गरेको जिङ्क चक्कि संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    चक्कि
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[ ३३ वितरण गरेको जिङ्क चक्कि संख्या  चक्कि]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३४
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      झाडापखाला लागेका २ महिना देखि ५ बर्ष सम्मका विरामी
-                      बच्चाहरुलाई प्रेषण गरेको संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[३४ झाडापखाला लागेका २ महिना देखि ५ बर्ष सम्मका विरामी बच्चाहरुलाई प्रेषण गरेको संख्या जना]",
+                        "Page3[५९ १८ देखी २३ महिना: पहिलो पटक  जना]",
                         {}
                       )}
                     />
@@ -267,27 +97,89 @@ const Page2 = () => {
                 </tr>
 
                 <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ६०
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      १८ देखी २३ महिना: दोस्रो पटक
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[६० १८ देखी २३ महिना: दोस्रो पटक  जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ६१
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      १८ देखी २३ महिना: तेस्रो पटक
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[६१ १८ देखी २३ महिना: तेस्रो पटकजना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
                   <th className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]">
-                    (ज)
+                    (ढ)
                   </th>
                   <th
                     colSpan={3}
                     className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]"
                   >
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      २-५९ महिना सम्मका विरामि शिशुको उपचार तथा प्रेषणः
-                      श्वासप्रश्वास रोग
-                    </h1>
+                    <h1 className="flex flex-start pl-[0.40vw]">विविध</h1>
                   </th>
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३५
+                    ६२
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      श्वास प्रश्वास रोग लागेका २ देखि ५९ महिनाका विरामी
-                      बच्चाहरुको संख्या
+                      आमा समुहको बैठक वसेको पटक
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    पटक
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register("Page3[६२ आमा समुहको बैठक वसेको पटक]", {})}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ६३
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      आमा समुहको बैठक सहभागी संख्या
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -298,7 +190,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[३५ श्वास प्रश्वास रोग लागेका २ देखि ५९ महिनाका विरामी बच्चाहरुको संख्या जना]",
+                        "Page3[६३ आमा समुहको बैठक सहभागी संख्या जना]",
                         {}
                       )}
                     />
@@ -306,23 +198,22 @@ const Page2 = () => {
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३६
+                    ६४
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      न्यूमोनिया नभएको (रुघाखोकी भएका) ५ वर्ष मुनिका बच्चालाई
-                      घरेलु उपचार सल्लाह दिएको बच्चाहरुको संख्या
+                      आमा समुहको बैठकमा स्वास्थ्यकर्मी सहभागी भएको पटक
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
+                    पटक
                   </th>
                   <td className="border-2 border-black  w-[8vw]">
                     <input
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[३६ न्यूमोनिया नभएको (रुघाखोकी भएका) ५ वर्ष मुनिका बच्चालाई घरेलु उपचार सल्लाह दिएको बच्चाहरुको संख्या जना]",
+                        "Page3[६४ आमा समुहको बैठकमा स्वास्थ्यकर्मी सहभागी भएको पटक]",
                         {}
                       )}
                     />
@@ -330,12 +221,12 @@ const Page2 = () => {
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३७
+                    ६५
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      श्वास प्रश्नास रोग भई स्वास्थ्य संस्थामा प्रेषण गरिएका २
-                      देखि ५९ महिनाका बालबालिकाहरुको संख्या
+                      गर्भवती अवस्थामा मातृ मृत्यु संख्या (स्वास्थ्य संस्थामा
+                      बाहेक अन्य स्थानमा भएको मात्र)
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -346,7 +237,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[३७ श्वास प्रश्नास रोग भई स्वास्थ्य संस्थामा प्रेषण गरिएका २ देखि ५९ महिनाका बालबालिकाहरुको संख्या जना]",
+                        "Page3[६५ गर्भवती अवस्थामा मातृ मृत्यु संख्या (स्वास्थ्य संस्थामा बाहेक अन्य स्थानमा भएको मात्र) जना]",
                         {}
                       )}
                     />
@@ -354,24 +245,13 @@ const Page2 = () => {
                 </tr>
 
                 <tr className="h-[3.4vw]">
-                  <th className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]">
-                    (झ)
-                  </th>
-                  <th
-                    colSpan={3}
-                    className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]"
-                  >
-                    <h1 className="flex flex-start pl-[0.40vw]">प्रेषण</h1>
-                  </th>
-                </tr>
-                <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३८
+                    ६६
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      सुरक्षित गर्भपतनको लागि स्वास्थ्य संस्थामा प्रेषण गरेका
-                      महिलाहरुको संख्या
+                      प्रसव अवस्थामा मातृ मृत्यु संख्या (स्वास्थ्य संस्थामा
+                      बाहेक अन्य स्थानमा भएको मात्र)
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -382,7 +262,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[ सुरक्षित गर्भपतनको लागि स्वास्थ्य संस्थामा प्रेषण गरेका महिलाहरुको संख्या जना]",
+                        "Page3[६६ प्रसव अवस्थामा मातृ मृत्यु संख्या (स्वास्थ्य संस्थामा बाहेक अन्य स्थानमा भएको मात्र) जना]",
                         {}
                       )}
                     />
@@ -390,12 +270,12 @@ const Page2 = () => {
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ३९
+                    ६७
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      स्वास्थ्य संस्थामा सेवा लिन प्रेषण गरिएका किशोर
-                      किशोरीहरुको संख्या
+                      सुक्केरी अवस्थामा मातृ मृत्यु संख्या (स्वास्थ्य संस्थामा
+                      बाहेक अन्य स्थानमा भएको मात्र)
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -406,7 +286,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[३९ स्वास्थ्य संस्थामा सेवा लिन प्रेषण गरिएका किशोर किशोरीहरुको संख्या जना]",
+                        "Page3[६७ सुक्केरी अवस्थामा मातृ मृत्यु संख्या (स्वास्थ्य संस्थामा बाहेक अन्य स्थानमा भएको मात्र) जना]",
                         {}
                       )}
                     />
@@ -414,11 +294,12 @@ const Page2 = () => {
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    १९
+                    ६८
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      २३ महिना भित्रमा पूर्ण खोप प्राप्त गरेको बच्चा संख्या
+                      सुक्तेरी अवस्थामा मातृ मृत्यु संख्या (स्वास्थ्य संस्थामा
+                      बाहेक अन्य स्थानमा भएको मात्र)
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -429,77 +310,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[२३ महिना भित्रमा पूर्ण खोप प्राप्त गरेको बच्चा संख्या जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४०
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      लगातार २ हप्ता सम्म खोकी लागी स्वास्थ्य संस्थामा प्रेषण
-                      गरेका विरामीहरुको संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[४० लगातार २ हप्ता सम्म खोकी लागी स्वास्थ्य संस्थामा प्रेषण गरेका विरामीहरुको संख्या जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४१
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      प्राथमिक उपचार गरेको संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[प्राथमिक उपचार गरेको संख्या जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४२
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      प्राथमिक उपचारको क्रममा प्रेषण गरेको बिरामीहरुको संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[४२ प्राथमिक उपचारको क्रममा प्रेषण गरेको बिरामीहरुको संख्या जना]",
+                        "Page3[६८ सुक्तेरी अवस्थामा मातृ मृत्यु संख्या (स्वास्थ्य संस्थामा बाहेक अन्य स्थानमा भएको मात्र) जना]",
                         {}
                       )}
                     />
@@ -507,25 +318,13 @@ const Page2 = () => {
                 </tr>
 
                 <tr className="h-[3.4vw]">
-                  <th className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]">
-                    (ज)
-                  </th>
-                  <th
-                    colSpan={3}
-                    className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]"
-                  >
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      परिवार नियोजन
-                    </h1>
-                  </th>
-                </tr>
-                <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४३
+                    ६९
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      खाने चक्की पिल्स वितरण गरिएका महिलाहरुको संख्या
+                      २ महिना देखि ५९ महिनासम्मका बालवालिकाको मृत्यु संख्या
+                      (स्वास्थ्य संस्थामा बाहेक)
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -536,7 +335,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[४३ खाने चक्की पिल्स वितरण गरिएका महिलाहरुको संख्या जना]",
+                        "Page3[६९ (२ महिना देखि ५९ महिनासम्मका बालवालिकाको मृत्यु संख्या (स्वास्थ्य संस्थामा बाहेक))  जना]",
                         {}
                       )}
                     />
@@ -544,148 +343,13 @@ const Page2 = () => {
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४४
+                    ७०
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      आकस्मिक गर्भ निरोधक चक्की वितरण गरिएका महिलाहरुको संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[४४ आकस्मिक गर्भ निरोधक चक्की वितरण गरिएका महिलाहरुको संख्याजना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४५
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      वितरण गरेको खाने चक्की पिल्सको साइकल संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    साइकल
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[४५ वितरण गरेको खाने चक्की पिल्सको साइकल संख्या साइकल]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४६
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      बितरण गरेको आकस्मिक गर्भ निरोधक चक्कीको डोजको संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    डोज
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[४६ बितरण गरेको आकस्मिक गर्भ निरोधक चक्कीको डोजको संख्या डोज]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४७
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      कण्डम वितरण गरेको जना
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register("Page-2[४७ कण्डम वितरण गरेको जना]", {})}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४८
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      वितरण गरेको कण्डमको संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    गोटा
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[४८ वितरण गरेको कण्डमको संख्या गोटा]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ४९
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      परिवार नियोजन सेवाको लागि स्वास्थ्य संस्थामा प्रेषण गरेको
-                      दम्पतीहरुको संख्या
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    दम्पती
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[४९ परिवार नियोजन सेवाको लागि स्वास्थ्य संस्थामा प्रेषण गरेको दम्पतीहरुको संख्या दम्पती]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५०
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      परिवार नियोजन सम्बन्धि सामग्री (फ्लिप चार्ट/पोस्टर/श्रब्य
-                      दश्य) प्रयोग गरी स्वास्थ्य शिक्षा पाएको संख्या
+                      बालस्वास्थ्य सम्बन्धि स्वास्थ्य शिक्षा सामग्री (फ्लिप
+                      चार्ट/पोस्टर/श्रब्य दृश्य सामग्री) प्रयोग गरी स्वास्थ्य
+                      शिक्षा पाएका संख्या
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -696,13 +360,661 @@ const Page2 = () => {
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[५० परिवार नियोजन सम्बन्धि सामग्री (फ्लिप चार्ट/पोस्टर/श्रब्य दश्य) प्रयोग गरी स्वास्थ्य शिक्षा पाएको संख्या]",
+                        "Page3[७० बालस्वास्थ्य सम्बन्धि स्वास्थ्य शिक्षा सामग्री (फ्लिप चार्ट/पोस्टर/श्रब्य दृश्य सामग्री) प्रयोग गरी स्वास्थ्य शिक्षा पाएका संख्या]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ७१
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 h-[5vw]">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      स्वस्थ्य जीवनशैलीको लागि नसर्ने रोगका जोखिम तत्व र
+                      रोकथामको बारेमा फ्लिप चार्ट/पोस्टर/श्रब्य हश्य सामग्री
+                      प्रयोग गरी स्वास्थ्य शिक्षा दिएको
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    पटक
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[७१ स्वस्थ्य जीवनशैलीको लागि नसर्ने रोगका जोखिम तत्व र रोकथामको बारेमा फ्लिप चार्ट/पोस्टर/श्रब्य हश्य सामग्री प्रयोग गरी स्वास्थ्य शिक्षा दिएको पटक]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ७२
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 h-[5vw]">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      स्विस्थ्य जीवनशैलीको लागि नसर्ने रोगका जोखिम तत्व र
+                      रोकथामको बारेमा फ्लिप चार्ट/पोस्टर/श्रब्य हश्य सामग्री
+                      प्रयोग गरी स्वास्थ्य शिक्षा दिएको
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    संख्या
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[७२ स्विस्थ्य जीवनशैलीको लागि नसर्ने रोगका जोखिम तत्व र रोकथामको बारेमा फ्लिप चार्ट/पोस्टर/श्रब्य हश्य सामग्री प्रयोग गरी स्वास्थ्य शिक्षा दिएको संख्या]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ७३
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      १३ हप्तासम्म आइरन फोलिक एसिड चक्की पाएका किशोरीको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    संख्या
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[७३ १३ हप्तासम्म आइरन फोलिक एसिड चक्की पाएका किशोरीको संख्या ]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ७४
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      २६ हप्तासम्म आइरन फोलिक एसिड चक्की पाएका किशोरीको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    संख्या
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[७४ २६ हप्तासम्म आइरन फोलिक एसिड चक्की पाएका किशोरीको संख्या]",
                         {}
                       )}
                     />
                   </td>
                 </tr>
 
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]">
+                    (ण)
+                  </th>
+                  <th
+                    colSpan={3}
+                    className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]"
+                  >
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      नवजात शिशु स्पाहार कार्यक्रम
+                    </h1>
+                  </th>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ७५
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      शिशु जन्म: घर
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register("Page3[७५ शिशु जन्म घर जना]", {})}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ७६
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      शिशु जन्मः स्वास्थ संस्था
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register("Page3[शिशु जन्मः स्वास्थ संस्था जना]", {})}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ७७
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      शिशु जन्मः तालिम प्राप्त स्वास्थकर्मिबाट
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[७७ शिशु जन्मः तालिम प्राप्त स्वास्थकर्मिबाट जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ७८
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      शिशु जम्मदा म.स्वा.से. उपस्थिति भएको
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[७८ शिशु जम्मदा म.स्वा.से. उपस्थिति भएको जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ७९
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      घरमै जन्मिएको निःसासिएको नवजात शिशुको व्यवस्थापन
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[७९ घरमै जन्मिएको निःसासिएको नवजात शिशुको व्यवस्थापन जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८०
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      घरमा प्रसुति भई नाभि काट्ने बित्तिकै नाभी मलम लगाएको
+                      सुनिश्चित गरिएका नवजात शिशुहरुको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८० घरमा प्रसुति भई नाभि काट्ने बित्तिकै नाभी मलम लगाएको सुनिश्चित गरिएका नवजात शिशुहरुको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८१
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      धरमा प्रसुति भई जन्मने बित्तिकै आमाको छातीमा टांसेर राखेको
+                      सुनिश्चित गरिएका नवजात शिशुहरुको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८१ धरमा प्रसुति भई जन्मने बित्तिकै आमाको छातीमा टांसेर राखेको सुनिश्चित गरिएका नवजात शिशुहरुको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८२
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      घरमा प्रसुति भई जन्मेको १ घण्टा भित्रमा स्तनपान गराएको
+                      सुनिश्चित गरिएका नवजात शिशुहरुको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८२ घरमा प्रसुति भई जन्मेको १ घण्टा भित्रमा स्तनपान गराएको सुनिश्चित गरिएका नवजात शिशुहरुको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८३
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      जन्मेको २४ घण्टासम्म ननुहाएको सुनिश्चित गरिएको नवजात
+                      शिशुहरुको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८३ जन्मेको २४ घण्टासम्म ननुहाएको सुनिश्चित गरिएको नवजात शिशुहरुको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८४
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      सामान्य तौल भएका नवजात शिशुहरुको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८४ सामान्य तौल भएका नवजात शिशुहरुको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८५
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      कम तौल भएका नवजात शिशुहरुको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८५ कम तौल भएका नवजात शिशुहरुको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८६
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      धेरै कम तौल भएका नवजात शिशुहरुको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८६ धेरै कम तौल भएका नवजात शिशुहरुको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८७
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      सुक्तेरी भएको तेश्रो दिनमा आमालाई परामर्श र बच्चालाई जाँच
+                      भेट गरेको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८७ सुक्तेरी भएको तेश्रो दिनमा आमालाई परामर्श र बच्चालाई जाँच भेट गरेको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८८
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      सुक्तेरी भएको सातौं दिनमा आमा लाई परामर्श र बच्चालाई जाँच
+                      भेट गरेको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८८ सुक्तेरी भएको सातौं दिनमा आमा लाई परामर्श र बच्चालाई जाँच भेट गरेको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ८९
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      सुक्तेरी भएको उनान्तिसौं दिनमा आमा लाई परामर्श र बच्चालाई
+                      जाँच भेट गरेको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[८९ सुक्तेरी भएको उनान्तिसौं दिनमा आमा लाई परामर्श र बच्चालाई जाँच भेट गरेको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ९०
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      आफो क्षेत्रका शंकास्पद क्षयरोगका बिरामीको प्रेषण गरेको
+                      संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[९० आफो क्षेत्रका शंकास्पद क्षयरोगका बिरामीको प्रेषण गरेको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ९१
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      आफो क्षेत्रका शंकास्पद कुष्ठरोगका बिरामीको प्रेषण गरेको
+                      संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[९१ आफो क्षेत्रका शंकास्पद कुष्ठरोगका बिरामीको प्रेषण गरेको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ९२
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      नसर्ने रोग (मधुमेह,मृगौला, दीर्घ श्वासप्रश्वास,
+                      अर्बुदरोग,मुटुरोग) का बिरामीको प्रेषण गरेको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[९२ नसर्ने रोग मधुमेह मृगौला दीर्घ श्वासप्रश्वास अर्बुदरोग मुटुरोग का बिरामीको प्रेषण गरेको संख्या  जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ९३
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      मानसिक स्वास्थ्य समस्या भएका बिरामीको प्रेषण गरेको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[९३ मानसिक स्वास्थ्य समस्या भएका बिरामीको प्रेषण गरेको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ९४
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      पाठेघर खस्ने समस्पा भएका आमाको प्रेषण गरेको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[९४ पाठेघर खस्ने समस्पा भएका आमाको प्रेषण गरेको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ९५
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      पाठेघरको मुखको क्यान्सरको जांचको लागि प्रेषण गरेको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[९५ पाठेघरको मुखको क्यान्सरको जांचको लागि प्रेषण गरेको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ९७
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      महिला सामुदायिक स्वास्थ्य स्वमसेविका कोषमा जम्मा भएको रकम
+                      रू. (लगानी समेत) सुखाकर
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    रकम रु.
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[९७ महिला सामुदायिक स्वास्थ्य स्वमसेविका कोषमा जम्मा भएको रकम रू. (लगानी समेत) सुखाकर रकम रु]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
+                <tr className="h-[3.4vw]">
+                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
+                    ९३
+                  </th>
+                  <th className="border-2 border-black bg-gray-100">
+                    <h1 className="flex flex-start pl-[0.40vw]">
+                      मानसिक स्वास्थ्य समस्या भएका बिरामीको प्रेषण गरेको संख्या
+                    </h1>
+                  </th>
+                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
+                    जना
+                  </th>
+                  <td className="border-2 border-black  w-[8vw]">
+                    <input
+                      className="outline-none overflow-hidden pl-[0.44vw]"
+                      type="text"
+                      {...register(
+                        "Page3[९३ मानसिक स्वास्थ्य समस्या भएका बिरामीको प्रेषण गरेको संख्या जना]",
+                        {}
+                      )}
+                    />
+                  </td>
+                </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]">
                     (ट)
@@ -712,135 +1024,30 @@ const Page2 = () => {
                     className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]"
                   >
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      शीघ्र कुपोषणको एकोकृत व्यवस्थापनः एम.यु.ए.सी. छनौट
+                      व्यक्तिगत घटना दर्ता सम्बन्धि परामर्श
                     </h1>
                   </th>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५१
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      हरियो; हृष्टपुष्टः खुशी परिवार
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[५१ हरियो हृष्टपुष्ट खुशी परिवार जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५२
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      पहेलोः मध्यम शीघ्र कुपोषण: घरमा म.स्वा.स्व.से. द्वारा
-                      परामर्श
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[५२ पहेलोः मध्यम शीघ्र कुपोषण: घरमा म.स्वा.स्व.से. द्वारा परामर्श जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५३
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      रातोः कडा शीघ्र कुपोषण: स्वास्थ्य संस्थामा प्रेषण
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[५३ रातोः कडा शीघ्र कुपोषण स्वास्थ्य संस्थामा प्रेषण जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५४
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      फुकेनासः स्वा.संस्थामा प्रेषण
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[५४ फुकेनासः स्वा.संस्थामा प्रेषण जना]",
-                        {}
-                      )}
-                    />
-                  </td>
                 </tr>
 
                 <tr className="h-[3.4vw]">
-                  <th className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]">
-                    (ठ)
-                  </th>
-                  <th
-                    colSpan={3}
-                    className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]"
-                  >
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      शीघ्र कुपोषणको एकीकृत व्यवस्थापनः घरभेट र अनुगमन
-                    </h1>
-                  </th>
-                </tr>
-                <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५३
+                    ९८
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      रातोः कडा शीघ्र कुपोषित बच्चाः उपचार पछि निको भएको
+                      नवजात शिशुको ३५ दिनभित्र जन्म दर्ताका लागि परामर्श दिएको
+                      परिवार संख्या
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
+                    परिवार
                   </th>
                   <td className="border-2 border-black  w-[8vw]">
                     <input
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[५३ रातो कडा शीघ्र कुपोषित बच्चाः उपचार पछि निको भएको जना]",
+                        "Page3[९३ मानसिक स्वास्थ्य समस्या भएका बिरामीको प्रेषण गरेको संख्या जना]",
                         {}
                       )}
                     />
@@ -848,12 +1055,11 @@ const Page2 = () => {
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५४
+                    ९९
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      रातोः कडा शीघ्र कुपोषित बच्चाः उपचार गरिरहदा पनि तौल
-                      वृद्धि नभएको
+                      नवजात शिशुको जन्म दर्ता भएको सुनिश्चित गरिएको संख्या
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -864,7 +1070,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[५४ रातोः कडा शीघ्र कुपोषित बच्चाः उपचार गरिरहदा पनि तौल वृद्धि नभएको  जना]",
+                        "Page3[नवजात शिशुको जन्म दर्ता भएको सुनिश्चित गरिएको संख्या जना]",
                         {}
                       )}
                     />
@@ -872,61 +1078,23 @@ const Page2 = () => {
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५५
+                    १००
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      रातोः कडा शीघ्र कुपोषित बच्चाः उपचार गर्दा गर्दै स्वास्थ्य
-                      संस्था जान छाडेका
+                      मृत्यु भएको ३५ दिनभित्र मृत्यु दर्ताका लागि परामर्श दिएको
+                      परिवार संख्या
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
+                    परिवार
                   </th>
                   <td className="border-2 border-black  w-[8vw]">
                     <input
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[५५ रातोः कडा शीघ्र कुपोषित बच्चाः उपचार गर्दा गर्दै स्वास्थ्य संस्था जान छाडेका जना]",
-                        {}
-                      )}
-                    />
-                  </td>
-                </tr>
-
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]">
-                    (ड)
-                  </th>
-                  <th
-                    colSpan={3}
-                    className="border-2 text-[1.4vw] font-bold border-black bg-red-100 w-[4vw]"
-                  >
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      एकिकृत शिशु तथा बाल्यकालीन पोषण र बार्लाभटा समुदाय
-                      प्रवर्धन कार्यक्रम
-                    </h1>
-                  </th>
-                </tr>
-                <tr className="h-[3.4vw]">
-                  <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५६
-                  </th>
-                  <th className="border-2 border-black bg-gray-100">
-                    <h1 className="flex flex-start pl-[0.40vw]">
-                      ६ देखी ११ महिनाः पहिलो पटक
-                    </h1>
-                  </th>
-                  <th className="border-2 border-black bg-gray-100 w-[8vw]">
-                    जना
-                  </th>
-                  <td className="border-2 border-black  w-[8vw]">
-                    <input
-                      className="outline-none overflow-hidden pl-[0.44vw]"
-                      type="text"
-                      {...register(
-                        "Page-2[५६ ६ देखी ११ महिनाः पहिलो पटक जना]",
+                        "Page3[१०० मृत्यु भएको ३५ दिनभित्र मृत्यु दर्ताका लागि परामर्श दिएको परिवार संख्या परिवार]",
                         {}
                       )}
                     />
@@ -934,11 +1102,11 @@ const Page2 = () => {
                 </tr>
                 <tr className="h-[3.4vw]">
                   <th className="border-2 border-black bg-gray-100 w-[4vw]">
-                    ५७
+                    १०१
                   </th>
                   <th className="border-2 border-black bg-gray-100">
                     <h1 className="flex flex-start pl-[0.40vw]">
-                      ५७ १२ देखी १७ महिना: पहिलो पटक
+                      मृत्य दर्ता भएको सुनश्चित गरिएको संख्या
                     </h1>
                   </th>
                   <th className="border-2 border-black bg-gray-100 w-[8vw]">
@@ -949,7 +1117,7 @@ const Page2 = () => {
                       className="outline-none overflow-hidden pl-[0.44vw]"
                       type="text"
                       {...register(
-                        "Page-2[५७ १२ देखी १७ महिना: पहिलो पटकजना]",
+                        "Page3[मृत्य दर्ता भएको सुनश्चित गरिएको संख्या]",
                         {}
                       )}
                     />
@@ -965,4 +1133,4 @@ const Page2 = () => {
   );
 };
 
-export default Page2;
+export default Page3;

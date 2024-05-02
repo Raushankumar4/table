@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 
 // import Link from "next/link";
@@ -13,6 +14,11 @@ import React from "react";
 // import PageFour from "@/Components/Hmis-9.3/PageFour";
 import Hms1 from "@/Components/Hmis-9.1/Hmis1";
 import Hmis2 from "@/Components/Hmis-9.1/Hmis2";
+import Hmis3 from "@/Components/Hmis-9.1/Hmis3";
+import Hmis4 from "@/Components/Hmis-9.1/Hmis4";
+import Hmis5 from "@/Components/Hmis-9.1/Hmis5";
+import Hmis6 from "@/Components/Hmis-9.1/Hmis6";
+import Hmis7 from "@/Components/Hmis-9.1/Hmis7";
 const page = () => {
   return (
     <>
@@ -26,9 +32,14 @@ const page = () => {
       <PageThree />
       <PageFour /> */}
 
-      {/* <Page5 /> */}
+      {/* <Page5 />  */}
       <Hms1 />
       <Hmis2 />
+      <Hmis3 />
+      <Hmis4 />
+      <Hmis5 />
+      <Hmis6 />
+      <Hmis7 />
     </>
   );
 };
